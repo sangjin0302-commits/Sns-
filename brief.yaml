@@ -1,0 +1,33 @@
+# 에토스 행정사사무소 — 콘텐츠 브리프
+# 사용법: 이 파일을 복사 후 작성 → claude /all 실행
+
+brand:
+  name: 에토스 행정사사무소
+  tagline: 절차에는 이성을, 사람에게는 공감을, 일에는 신뢰를
+  colors:
+    primary: "#1B2B6B"
+    accent: "#B8972A"
+    background: "#F5F0E8"
+  logo: assets/logo.png
+  voice: "권위 있되 따뜻함. 법률 전문성 + 인간적 공감."
+
+content:
+  topic: ""              # 예: 동거계약서, 음식점 영업신고, 수쿠크
+  target_reader: ""      # 예: 동성·비혼 커플 당사자 30대
+  hook: ""               # 예: 2026.6.5 서울중앙지법 판결
+  situation: ""          # 예: 법적 보호 없이 함께 살고 있음
+  output: "all"          # blog | card | linkedin | all
+
+seo:
+  primary_keyword: ""    # 예: 동거계약서 작성
+  secondary_keywords: [] # 예: ["비혼 커플 법적 보호", "동거 분쟁 예방"]
+
+cta:
+  type: "consultation"   # consultation | follow | share
+  message: ""            # 비우면 자동 생성
+
+platform:
+  blog: naver
+  social: linkedin
+  card_insta: true
+  card_linkedin: true
